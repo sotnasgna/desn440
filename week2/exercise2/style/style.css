@@ -1,3 +1,15 @@
+/* Custom Font 'ChromaticaTrial' */
+@font-face {
+  font-family: 'ChromaticaTrial-Regular';
+  src: url('assets/fonts/ChromaticaTrial/ChromaticaTrial-Regular.otf') format('opentype');
+}
+
+/* Custom Font 'Hellenic' */
+@font-face {
+  font-family: 'HellenicTypewriterTrial-Regular';
+  src: url('assets/fonts/HellenicTypewriterTrial/HellenicTypewriterTrial-Regular.otf') format('opentype');
+}
+
 body {
   background-color: #F9F5F1;
 }
@@ -8,12 +20,12 @@ img {
 }
 
 h1, a {
-  font-family: Courier Prime;
+  font-family: HellenicTypewriterTrial-Regular;
   font-weight: bold
 }
 
 p {
-  font-family: Montserrat;
+  font-family: ChromaticaTrial-Regular;
   font-size: 16px;
 }
 
