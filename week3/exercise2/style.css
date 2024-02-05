@@ -36,7 +36,7 @@ background: olive
 background-image: linear-gradient(orange, yellow) 
 */
 
-.container-1 {
+.bg {
   justify-content: center;
   background: silver
 }
