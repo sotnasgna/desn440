@@ -4,6 +4,160 @@
 	font-family: montserrat;
 }
 
+.container-fluid {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+/** Type Hierarchy **/ 
+
 h1 {
 	padding-right: 30px;
+	font-size: 80px;
+}
+
+
+h4 {
+	text-align: right;
+} 
+
+/** general **/ 
+
+.row {
+	margin-top: 50px;
+}
+
+
+
+/** NAVIGATION **/
+
+nav{
+	padding-left: 20px;
+}
+
+
+/** HERO **/
+
+.lessbm {
+	margin-bottom: -10px;
+}
+
+.transform:hover {
+	transform: skewY(-10deg);
+}
+
+
+/** button **/
+
+
+.mybuttonorg {
+	all: unset;
+	background-color: #0E1514;
+	color: #fdfdfd;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px #dc704f;
+	z-index: 10;
+}
+
+.mybuttonorg:hover {
+	background-color: #dc704f;
+	box-shadow: 5px 5px #0E1514;
+	transition: ease-in 1s;
+}
+
+.mybuttongrn {
+	all: unset;
+	background-color: #0E1514;
+	color: #fdfdfd;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px #929e54;
+	z-index: 10;
+}
+
+.mybuttongrn:hover {
+	background-color: #929e54;
+	box-shadow: 5px 5px #0E1514;
+}
+
+.mybutton {
+	all: unset;
+	background-color: #fdfdfd;
+	color: #0E1514;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px #929e54;
+	z-index: 10;
+
+}
+
+/** General **/
+
+a {
+	text-decoration: none;
+}
+
+p a {
+	all: unset;
+	border-color: #fdfdfd;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+p a:hover {
+	transition: width 2s;
+	background-color: #dc704f;
+}
+
+p a:active {
+	background-color: #fdfdfd;
+	color: #0E1514;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #0E1514;
+  padding-top: 20px;
+  font-size: 20px;
+  z-index: 10;
+}
+
+div.stickyw {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fdfdfd;
+  padding-top: 20px;
+  font-size: 20px;
+  z-index: 10;
+}
+
+
+
+.black {
+	background-color: #0E1514;
+	color: #fdfdfd;
+}
+
+::selection {
+	color: #fdfdfd;
+	background-color: #dc704f;
+}
+
+
+
+img {
+	size: 100px;
+	z-index: -3;
+}
+
+
+@media only screen and (max-width: 576px) {
+  h4 {
+    text-align: left;
+  }
 }
